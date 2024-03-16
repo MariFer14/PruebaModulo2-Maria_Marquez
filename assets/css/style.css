@@ -200,6 +200,15 @@ footer {
   cursor: pointer;
 }
 
+.redes {
+  margin-right: 50px;
+}
+
+.redes-contacto {
+  display: flex;
+  align-items: center;
+}
+
 .redes h3 {
   color: #ffffff;
   font-size: 20px;
@@ -273,6 +282,24 @@ hr {
     flex: 100%;
     max-width: 100%;
   }
+
+  .footer-p1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo h1 {
+    text-align: center;
+  }
+
+  .formulario p {
+    text-align: center;
+  }
+
+  .formulario .btn {
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -302,6 +329,36 @@ hr {
     flex: 50%;
     max-width: 50%;
   }
+
+  .footer-p1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo h1 {
+    text-align: center;
+  }
+
+  .formulario p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px){
+    .footer-p1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .logo h1 {
+        text-align: center;
+      }
+    
+      .formulario p {
+        text-align: center;
+      }
 }
 
 @media only screen and (min-width: 768px) {
